@@ -1,4 +1,4 @@
-FROM jordi/ubuntu
+FROM jordi/docker-devel
 
 RUN apt-get -y update
 # RUN apt-get -y install linux-image-extra-`uname -r`
